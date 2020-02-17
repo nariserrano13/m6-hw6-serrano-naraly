@@ -24,3 +24,66 @@ yellow
 green 
 #8df547
 */
+
+body{
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+}
+p{
+	margin-bottom: 0px;
+}
+header{
+	background-color: #7122bf;
+	height: 3.5rem;
+	color: #ffffff;
+	font-size: 1.8rem;
+	letter-spacing: -.5px;
+	padding: 5px 25px;
+}
+.subheading{
+	color: #7122bf;
+	font-weight: 500;
+	font-size: .75rem;
+	padding-top: 5px;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.square{
+	max-width: 80px;
+	width: 100%;
+	height: 100%;
+	margin: 15px;
+	color: #7122bf;
+	font-size: 3rem;
+	font-weight: 500;
+}
+.border{
+	border: 4px solid #7122bf!important;
+}
+.one{
+	background-color: #f5ef3b;
+}
+.two{
+	background-color: #5ae0c3;
+}
+.three{
+	background-color: #8df547;
+}
+.button{
+	background-color: #7122bf;
+	color: #ffffff;
+	font-size: .75rem;
+	padding: 8px 5px;
+	border-radius: 2px;
+	width: 80px; 
+	display: flex;
+	margin: auto;
+}
+@media (min-width: 400px){
+	.container{
+		flex-direction: row;
+	}
+}
