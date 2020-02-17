@@ -72,15 +72,19 @@ header{
 .three{
 	background-color: #8df547;
 }
-.button{
+.show{
 	background-color: #7122bf;
 	color: #ffffff;
 	font-size: .75rem;
 	padding: 8px 5px;
 	border-radius: 2px;
 	width: 80px; 
-	display: none;
 	margin: auto;
+	/* display set allows the div to appear when class=show is added w/ classList */
+	display: flex;
+}
+.button{
+	display: none;
 }
 @media (min-width: 400px){
 	.container{
